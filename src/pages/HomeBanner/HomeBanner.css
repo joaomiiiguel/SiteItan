@@ -1,0 +1,13 @@
+a {
+    cursor: pointer;
+  }
+    
+    .App-Banner {
+      background-color: #2E3D61;
+      height: 80%;
+      margin: 0;
+      
+    }
+    @media screen and (max-width: 600px) {
+      
+    }
