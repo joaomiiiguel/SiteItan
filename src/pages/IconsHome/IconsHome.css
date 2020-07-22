@@ -1,0 +1,45 @@
+a {
+    cursor: pointer;
+  }    
+   .App-Icons {
+      background-color: #2E3D61;
+      
+      align-items: center;
+      padding: 0 100px;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 80px;
+    }
+    .container-icons{
+        
+    }
+    .link-icons{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        
+        color: #f9f9f9;
+        font-weight: bold;
+        text-align: center;
+        width: 150px;
+        padding: 15px 8px 8px 8px;
+    }
+    .link-icons:hover{
+        background-color: #00C5EA;
+    }
+    .img-icons{
+        height: 90px ;
+    }
+    .name-icons{
+        padding: 0;
+    }
+
+    @media screen and (max-width: 800px) {
+        .container{
+            flex-direction: column;
+        }
+    }

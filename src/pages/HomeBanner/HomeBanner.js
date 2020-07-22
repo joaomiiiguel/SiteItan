@@ -4,7 +4,9 @@ import './HomeBanner.css';
 function HomeBanner() {
   return(
     <div className="App-Banner">
-        <p>Imagem Teste</p>
+        <div className="Area-Banner">
+          <p>Banner Teste</p>
+        </div>
     </div>
     );
   }
