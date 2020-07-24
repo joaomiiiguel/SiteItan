@@ -1,0 +1,24 @@
+.containerBody{
+    display: flex;
+    flex-direction: column;
+}
+.containerInicial{
+    display: flex;
+    flex-direction: row;
+}
+.conteudosColumn{
+    width: 75%;
+}
+.socialColumn{
+    width: 25%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .containerInicial{
+        flex-direction: column;
+    }
+    .socialColumn, .conteudosColumn{
+        width: 100%;
+    }
+}

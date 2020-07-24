@@ -1,11 +1,11 @@
 import React from 'react'
 import './IconsHome.css'
 
-import iconCursoTec from '../../assets/iconCursoTec.svg';
-import iconMatr from '../../assets/iconMatr.svg';
-import iconDesc from '../../assets/iconDesc.svg';
-import iconVagas from '../../assets/iconVagas.svg';
-import iconLoja from '../../assets/iconLoja.svg';
+import iconCursoTec from '../../../assets/iconCursoTec.svg';
+import iconMatr from '../../../assets/iconMatr.svg';
+import iconDesc from '../../../assets/iconDesc.svg';
+import iconVagas from '../../../assets/iconVagas.svg';
+import iconLoja from '../../../assets/iconLoja.svg';
 
 export default function IconsHome() {
     return (

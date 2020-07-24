@@ -1,5 +1,5 @@
 html{
-  width: 100%;
+  max-width: 100%;
 }
 body {
   
@@ -14,3 +14,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

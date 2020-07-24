@@ -4,14 +4,11 @@ Azul Claro:00C5EA
 Branco:F9F9F9
 
 */
-html,body{
+
+body{
   margin: 0;
-  padding: 0;
-  min-width: 100vw;
-  min-height: 100vh;
 }
 .App {
-  text-align: center;
   background-color: #f9f9f9;
 }
 

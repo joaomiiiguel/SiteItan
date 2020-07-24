@@ -3,6 +3,7 @@ a {
 }
 .App-logo {
     height: 15vmin;
+    padding-right: 200px;
   }
   
   .App-header {
@@ -10,7 +11,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 50px;
+    width: 100%;
     
   }
   .Header-Top{
@@ -18,15 +19,14 @@ a {
     height: 35px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: #F9F9F9;
-    padding: 0 50px;
   }
   .Header-Menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     padding: 20px 0;
@@ -36,6 +36,9 @@ a {
      padding-right: 10px; 
      border-right: 1px solid #f9f9f9;
      color: #F9F9F9;
+  }
+  .Portal{
+    padding-left: 500px;
   }
   .linkPortal{
     color: #F9F9F9;
@@ -135,9 +138,17 @@ a {
   @media screen and (max-width: 800px) {
     .App-logo {
       height: 20vmin;
+      padding-right: 50px;
+    }
+    .Header-Top{
+      width: 100vw;
+      padding: 0px;
+    }
+    .Portal{
+      padding-left: 70px;
     }
     .App-header{
-      padding: 0 20px;
+      padding: 0;
     }
     .Header-Menu {
       padding: 20px 0;

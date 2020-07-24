@@ -25,18 +25,18 @@ function Header(){
     return(
     <div className="App-header">
         <div class="Header-Top">
-            <div>
+            <div style={{ float:"left" }}>
                 <a href="#" class="linkSocial"><img src={facebook} className="logo-social" alt="social-face" /></a>
                 <a href="#" class="linkSocial"><img src={instagram} className="logo-social" alt="social-instagram" /></a>
                 <a href="#" class="linkSocial"><img src={youtube} className="logo-social" alt="social-youtube" /></a>
                 <a href="#" class="linkSocial"><img src={spotify} className="logo-social" alt="social-spotify" /></a>
                 <a href="#" class="linkSocial"><img src={twitter} className="logo-social" alt="social-twitter" /></a>
             </div>
-            <div>
-            <a href="#" class="linkPortal">
-                <img src={portal} className="logo-social" alt="logo-portal" />
-                <p style={{ paddingLeft:"15px", fontWeight:"bold" }}>PORTAL ADM</p>
-            </a>
+            <div class="Portal">
+                <a href="#" class="linkPortal">
+                    <img src={portal} className="logo-social" alt="logo-portal" />
+                    <p style={{ paddingLeft:"15px", fontWeight:"bold" }}>PORTAL ADM</p>
+                </a>
             </div>
         </div>
         <div class="Header-Menu">

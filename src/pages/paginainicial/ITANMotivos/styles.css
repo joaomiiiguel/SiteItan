@@ -1,0 +1,20 @@
+.containerMot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px
+}
+.cardMot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 23%;
+    height: 150px;    
+}
+.cardMot p{
+    font-size: 12pt;
+}
+.iconsMot{
+    height: 50%;
+}

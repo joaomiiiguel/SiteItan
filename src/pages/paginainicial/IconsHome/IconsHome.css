@@ -3,9 +3,8 @@ a {
   }    
    .App-Icons {
       background-color: #2E3D61;
-      
       align-items: center;
-      padding: 0 100px;
+      max-width: 100%;
     }
     .container{
         display: flex;
@@ -13,23 +12,22 @@ a {
         justify-content: space-between;
         align-items: center;
         padding: 20px 80px;
-    }
-    .container-icons{
         
     }
     .link-icons{
         display: flex;
         flex-direction: column;
         text-decoration: none;
-        
         color: #f9f9f9;
         font-weight: bold;
         text-align: center;
         width: 150px;
+        height: 150px;
         padding: 15px 8px 8px 8px;
+        border-radius: 5px;
     }
     .link-icons:hover{
-        background-color: #00C5EA;
+        background-color: #34456E;
     }
     .img-icons{
         height: 90px ;
@@ -41,5 +39,11 @@ a {
     @media screen and (max-width: 800px) {
         .container{
             flex-direction: column;
+            max-width: 100%;
+        }
+        .link-icons{
+            width: 100%;
+            border-radius: 0px;
+            padding: 20px 0px;
         }
     }
