@@ -1,0 +1,18 @@
+.containerEnq{
+    width: 100%;
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.tituloEnq{
+    font-size: 13pt;
+    font-weight: bold;
+}
+.opcaoEnq{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: -10px;
+}

@@ -1,0 +1,23 @@
+.containerAbout{
+    width: 100%;
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#2E3D61;
+}
+.AboutLine{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.PhotoImg{
+    height: 30vh;
+}
+.textAbout{
+    color:#2E3D61;
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 13pt;
+}
