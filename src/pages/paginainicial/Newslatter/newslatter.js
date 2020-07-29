@@ -3,7 +3,7 @@ import './styles.css';
 
 export default function Newslatter() {
   return (
-      <div className="containerNews">
+      <div className="containerNewslatter">
           <h3>Newslatter</h3>
           <p>Cadastre-se com seu e-mail e receba nosso boletim virtual com as principais novidade sobre o ITAN</p>
           <form style={{display: "flex", justifyContent:"space-around"}}>

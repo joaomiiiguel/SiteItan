@@ -9,7 +9,7 @@ export default function enquetes() {
     
     return (
         <div className="containerEnq">
-            <p className="tituloEnq">Qual a sua formação?</p>
+            <h2>Qual a sua formação?</h2>
             <RadioGroup aria-label="gender" name="gender1" >
                 <FormControlLabel value="female" control={<Radio />} label="Ensino Médio" />
                 <FormControlLabel value="male" control={<Radio />} label="Ensino Técnico" />

@@ -1,9 +1,8 @@
-.containerNews{
+.containerNewslatter{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 25px 15px;
-    border: none;
+    padding: 30px 15px 50px 15px;
     border-bottom: 1px solid gray;
 }
 h3{
@@ -16,7 +15,7 @@ input[type=email] {
   }
 input[type=submit] {
     padding: 10px 15px;
-    margin: 0 10px;
+    margin: 0 20px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #2E3D61 ;
