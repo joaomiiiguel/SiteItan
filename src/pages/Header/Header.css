@@ -1,6 +1,9 @@
 a {
   cursor: pointer;
 }
+html, body{
+  margin: 0;
+}
 .App-logo {
     height: 15vmin;
     padding-right: 200px;

@@ -1,5 +1,26 @@
 import React from 'react';
 import './Header.css';
+import { BrowserRouter as Router, Switch, Route, Link,} from 'react-router-dom';
+
+import Paginainicial from '../paginainicial/paginainicial.js';
+import quemSomos from '../ITAN/QuemSomos/quemSomos.js';
+import historico from '../ITAN/historico/historico.js';
+import objetivos from '../ITAN/Objetivos/Objetivos.js';
+import infra from '../ITAN/infra/infra.js';
+import RespSocial from '../ITAN/RespSocial/respsocial.js';
+
+import CursosTec from '../Cursos/CursosTec/CursosTec.js';
+import CursosLivre from '../Cursos/CursosLivre/CursosLivre.js';
+import PrepConcurso from '../Cursos/PrepConcurso/PrepConcurso.js';
+import CursosEaD from '../Cursos/CursosEaD/CursosEaD.js';
+
+import Noticias from '../Comunic/Noticias/Noticias.js';
+import ConcursoVagas from '../Comunic/ConcursoVagas/ConcursoVagas.js';
+import Eventos from '../Comunic/Eventos/Eventos.js';
+
+import PergFrequente from '../Contato/PergFrequentes/PergFrequentes.js';
+import Ouvidoria from '../Contato/Ouvidoria/Ouvidoria.js';
+import FaleConosco from '../Contato/FaleConosco/FaleConosco.js';
 
 
 import logo from '../../assets/Logo.svg'
@@ -13,6 +34,7 @@ import chevronDown from '../../assets/chevron-down.svg';
 
 
 
+
 function Header(){
     function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -23,6 +45,7 @@ function Header(){
         }
       }
     return(
+        <Router>
     <div className="App-header">
         <div class="Header-Top">
             <div style={{ float:"left" }}>
@@ -40,51 +63,73 @@ function Header(){
             </div>
         </div>
         <div class="Header-Menu">
-            <img src={logo} className="App-logo" alt="logo" />
+            <Link to="/" ><img src={logo} className="App-logo" alt="logo" /></Link>
             <div class="topnav" id="myTopnav">
                 <div class="dropdown">
                     <button class="dropbtn">O ITAN
                     </button>
                     <div class="dropdown-content">
-                        <a href="#">Quem Somos</a>
-                        <a href="#">Histórico</a>
-                        <a href="#">Objetivos</a>
-                        <a href="#">Infraestrutura</a>
-                        <a href="#">Responsabilidade Social</a>
+                        <Link to="/quem-somos">Quem Somos</Link>
+                        <Link to="/historico">Histórico</Link>
+                        <Link to="/objetivos">Objetivos</Link>
+                        <Link to="/infra">Infraestrutura</Link>
+                        <Link to="/resp-social">Responsabilidade Social</Link>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">CURSOS
                     </button>
                     <div class="dropdown-content">
-                        <a href="#">Cursos Técnicos</a>
-                        <a href="#">Cursos Livres</a>
-                        <a href="#">Preparatórios para Concursos</a>
-                        <a href="#">Cursos EaD</a>
+                        <Link to="/cursos-tec"> Cursos Técnicos</Link>
+                        <Link to="/cursos-livres">Cursos Livres</Link>
+                        <Link to="/prep-concurso">Preparatórios para Concursos</Link>
+                        <Link to="/cursos-EaD">Cursos EaD</Link>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">COMUNICADOS
                     </button>
                     <div class="dropdown-content">
-                        <a href="#">Notícias</a>
-                        <a href="#">Concursos e Vagas</a>
-                        <a href="#">Eventos</a>
+                        <Link to="/noticias">Notícias</Link>
+                        <Link to="/concursos-vagas">Concursos e Vagas</Link>
+                        <Link to="/eventos">Eventos</Link>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">CONTATO
                     </button>
                     <div class="dropdown-content">
-                        <a href="#">Perguntas Frequentes</a>
-                        <a href="#">Ouvidoria</a>
-                        <a href="#">Fale Conosco</a>
+                        <Link to="/perg-frequentes">Perguntas Frequentes</Link>
+                        <Link to="/ouvidoria">Ouvidoria</Link>
+                        <Link to="/fale-conosco">Fale Conosco</Link>
                     </div>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
         </div>
     </div>
+        <Switch>
+          <Route path="/" exact component={Paginainicial} />
+            <Route path="/quem-somos" component={quemSomos}/>
+            <Route path="/historico" component={historico}/>
+            <Route path="/objetivos" component={objetivos}/>
+            <Route path="/infra" component={infra}/>
+            <Route path="/resp-social" component={RespSocial}/>
+
+            <Route path="/cursos-tec" component={CursosTec}/>
+            <Route path="/cursos-livres" component={CursosLivre}/>
+            <Route path="/prep-concurso" component={PrepConcurso}/>
+            <Route path="/cursos-EaD" component={CursosEaD}/>
+
+            <Route path="/noticias" component={Noticias}/>
+            <Route path="/concursos-vagas" component={ConcursoVagas}/>
+            <Route path="/eventos" component={Eventos}/>
+
+            <Route path="/perg-frequentes" component={PergFrequente}/>
+            <Route path="/ouvidoria" component={Ouvidoria}/>
+            <Route path="/fale-conosco" component={FaleConosco}/>
+        </Switch> 
+    </Router>
     );
 }
 
