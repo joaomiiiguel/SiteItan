@@ -49,8 +49,8 @@ function Header(){
     <div className="App-header">
         <div class="Header-Top">
             <div style={{ float:"left" }}>
-                <a href="#" class="linkSocial"><img src={facebook} className="logo-social" alt="social-face" /></a>
-                <a href="#" class="linkSocial"><img src={instagram} className="logo-social" alt="social-instagram" /></a>
+                <a href="https://www.facebook.com/itan.cursos/" target="_blank" class="linkSocial"><img src={facebook} className="logo-social" alt="social-face" /></a>
+                <a href="https://www.instagram.com/itan.cursos/" target="_blank" class="linkSocial"><img src={instagram} className="logo-social" alt="social-instagram" /></a>
                 <a href="#" class="linkSocial"><img src={youtube} className="logo-social" alt="social-youtube" /></a>
                 <a href="#" class="linkSocial"><img src={spotify} className="logo-social" alt="social-spotify" /></a>
                 <a href="#" class="linkSocial"><img src={twitter} className="logo-social" alt="social-twitter" /></a>
@@ -109,7 +109,7 @@ function Header(){
         </div>
     </div>
         <Switch>
-          <Route path="/" exact component={Paginainicial} />
+            <Route path="/" exact component={Paginainicial} />
             <Route path="/quem-somos" component={quemSomos}/>
             <Route path="/historico" component={historico}/>
             <Route path="/objetivos" component={objetivos}/>
