@@ -15,7 +15,7 @@ export default function quemSomos() {
                 <a href="/historico">Histórico</a>
                 <a href="/objetivos">Objetivos</a>
                 <a href="/infra">Infraestrutura</a>
-                <a href="/rep-social">Responsabilidade Social</a>
+                <a href="/resp-social">Responsabilidade Social</a>
             </div>
         </div>
     )

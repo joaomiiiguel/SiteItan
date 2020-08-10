@@ -15,7 +15,7 @@ export default function Objetivos() {
                 <a href="/historico">Histórico</a>
                 <a style={{color:"#00C5EA", fontWeight: "bold", cursor:"default"}}>Objetivos</a>
                 <a href="/infra">Infraestrutura</a>
-                <a href="/rep-social">Responsabilidade Social</a>
+                <a href="/resp-social">Responsabilidade Social</a>
             </div>
         </div>
     )

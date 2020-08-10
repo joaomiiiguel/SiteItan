@@ -15,7 +15,7 @@ export default function infra() {
                 <a href="/historico">Histórico</a>
                 <a href="/objetivos">Objetivos</a>
                 <a style={{color:"#00C5EA", fontWeight: "bold", cursor:"default"}} href="/infra">Infraestrutura</a>
-                <a href="/rep-social">Responsabilidade Social</a>
+                <a href="/resp-social">Responsabilidade Social</a>
             </div>
         </div>
     )

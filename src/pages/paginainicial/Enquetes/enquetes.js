@@ -15,6 +15,7 @@ export default function enquetes() {
                 <FormControlLabel value="male" control={<Radio />} label="Ensino Técnico" />
                 <FormControlLabel value="other" control={<Radio />} label="Ensino Superior" />
             </RadioGroup>
+            <input type="button" value="Votar" />
         </div>
     )
 }

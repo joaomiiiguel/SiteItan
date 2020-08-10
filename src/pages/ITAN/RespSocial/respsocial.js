@@ -15,7 +15,7 @@ export default function RespSocial() {
                 <a href="/historico">Histórico</a>
                 <a href="/objetivos">Objetivos</a>
                 <a href="/infra">Infraestrutura</a>
-                <a style={{color:"#00C5EA", fontWeight: "bold", cursor:"default"}} href="/rep-social">Responsabilidade Social</a>
+                <a style={{color:"#00C5EA", fontWeight: "bold", cursor:"default"}} href="/resp-social">Responsabilidade Social</a>
             </div>
         </div>
     )

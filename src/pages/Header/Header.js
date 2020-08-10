@@ -21,6 +21,7 @@ import Eventos from '../Comunic/Eventos/Eventos.js';
 import PergFrequente from '../Contato/PergFrequentes/PergFrequentes.js';
 import Ouvidoria from '../Contato/Ouvidoria/Ouvidoria.js';
 import FaleConosco from '../Contato/FaleConosco/FaleConosco.js';
+import MapaSite from '../MapaSite/mapasite.js';
 
 
 import logo from '../../assets/Logo.svg'
@@ -129,6 +130,8 @@ function Header(){
             <Route path="/ouvidoria" component={Ouvidoria}/>
             <Route path="/fale-conosco" component={FaleConosco}/>
         </Switch> 
+
+    <MapaSite />
     </Router>
     );
 }

@@ -1,0 +1,41 @@
+.containerMap{
+    display:flex;
+    flex-direction: row;
+    align-items: initial;
+    justify-content: space-between;
+    background-color: #2E3D61;
+    padding: 40px 50px;
+    border-top: 5px solid #00C5EA;
+}
+.TituloMap{
+    font-size: 15pt;
+    font-weight: bold;
+    padding-bottom: 15px;
+    cursor: default;
+}
+.containerMap a{
+    color: white;
+    padding-top: 10px;
+}
+.MapContainer {
+    display: flex;
+    flex-direction: column;
+}
+.logo-social{
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 800px){
+    .containerMap{
+        flex-direction: column;
+    }
+    .MapContainer{
+        align-items: center;
+    }
+    .TituloMap{
+        margin-top: 10px;
+        border-top: 1px solid white;
+        width: 100%;
+        text-align: center;
+    }
+}

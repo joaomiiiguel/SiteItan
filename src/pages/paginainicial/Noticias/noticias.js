@@ -17,7 +17,7 @@ export default function noticias() {
                 <h3 style={{marginTop:0}}>{card.title}</h3>
                 <a href={card.link} className="moreNews"><p>Leia mais</p></a>
             </a>
-);
+    );
     
     return (
         <div className="containerNews">

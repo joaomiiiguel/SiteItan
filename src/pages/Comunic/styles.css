@@ -1,13 +1,9 @@
-.containerEvents{
+.Container{
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    padding: 50px 0px;
-}
-a {
-    text-decoration: none;
-    color:#2E3D61
+    justify-content: space-around;
+    color: #2E3D61;
 }
 .containerListCard{
     display: flex;
@@ -15,16 +11,22 @@ a {
     align-content: flex-start;
     justify-content: center;
 }
+
+a {
+    text-decoration: none;
+    color:#2E3D61
+}
+
 .cardNews{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #f9f9f9;
+    margin-left: 10px;
     margin-bottom: 20px;
     border: 1px solid #f9f9f9;
     border-radius: 2%;
-    width: 31%;
-    height: 320px;
+    height: 400px;
 }
 .cardNews:hover{
     border: 1px solid #00C5EA;
@@ -40,24 +42,14 @@ a {
 
 .moreNews {
     text-decoration: none;
-    
+    padding: 0 15px;
 }
 .moreNews:hover {
     color: #00C5EA;
 }
-
-.moreView{
-    background-color: #2E3D61;
-    padding: 0px 80px;
-    border-radius: 10px;
-    color: #f9f9f9
-}
-.moreView:hover{
-    background-color: #3d4f7a;
-}
-
 @media screen and (max-width: 800px){
     .cardNews{
         width: 80%;
+        height: 100%;
     }
 }

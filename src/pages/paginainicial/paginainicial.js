@@ -14,7 +14,6 @@ import Enquetes from './Enquetes/enquetes.js';
 import Podcast from './Spotify/podcast.js';
 import Midias from './RedeSocial/midias.js';
 import Parceiros from './Parceiros/parceiros.js';
-import MapaSite from './MapaSite/mapasite.js';
 
 
 export default function paginainicial() {
@@ -40,7 +39,6 @@ export default function paginainicial() {
                     <Parceiros/>
                 </div>
             </div>
-            <MapaSite/>
         </div>
     )
 }
