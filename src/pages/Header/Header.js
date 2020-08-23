@@ -31,16 +31,16 @@ import twitter from '../../assets/twitter.svg';
 import spotify from '../../assets/spotify.svg';
 import youtube from '../../assets/youtube.svg';
 import portal from '../../assets/portal.svg';
-import chevronDown from '../../assets/chevron-down.svg';
+import studentPortal from '../../assets/studentPortal.svg';
 
 
 
 
-function Header(){
+const Header = () =>{
     function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
-          x.className += " responsive";
+          x.className += "responsive";
         } else {
           x.className = "topnav";
         }
@@ -50,16 +50,20 @@ function Header(){
     <div className="App-header">
         <div class="Header-Top">
             <div style={{ float:"left" }}>
+            <a href="https://www.instagram.com/itan.cursos/" target="_blank" class="linkSocial"><img src={instagram} className="logo-social" alt="social-instagram" /></a>
                 <a href="https://www.facebook.com/itan.cursos/" target="_blank" class="linkSocial"><img src={facebook} className="logo-social" alt="social-face" /></a>
-                <a href="https://www.instagram.com/itan.cursos/" target="_blank" class="linkSocial"><img src={instagram} className="logo-social" alt="social-instagram" /></a>
-                <a href="#" class="linkSocial"><img src={youtube} className="logo-social" alt="social-youtube" /></a>
-                <a href="#" class="linkSocial"><img src={spotify} className="logo-social" alt="social-spotify" /></a>
-                <a href="#" class="linkSocial"><img src={twitter} className="logo-social" alt="social-twitter" /></a>
+                <a href="#" target="_blank" class="linkSocial"><img src={youtube} className="logo-social" alt="social-youtube" /></a>
+                <a href="#" target="_blank" class="linkSocial"><img src={spotify} className="logo-social" alt="social-spotify" /></a>
+                <a href="#" target="_blank" class="linkSocial"><img src={twitter} className="logo-social" alt="social-twitter" /></a>
             </div>
             <div class="Portal">
-                <a href="#" class="linkPortal">
+                <a class="linkPortal" target="_blank" href="https://www.proesc.com/app" >
+                    <img src={studentPortal} className="logo-social" alt="logo-portal" />
+                    <p>Portal do Aluno</p>
+                </a>
+                <a class="linkPortal" target="_blank" href="#" >
                     <img src={portal} className="logo-social" alt="logo-portal" />
-                    <p style={{ paddingLeft:"15px", fontWeight:"bold" }}>PORTAL ADM</p>
+                    <p>Portal ADM</p>
                 </a>
             </div>
         </div>

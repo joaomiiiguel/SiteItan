@@ -45,6 +45,8 @@ html, body{
   }
   .Portal{
     padding-left: 500px;
+    display: flex;
+    flex-direction: row;
   }
   .linkPortal{
     color: #F9F9F9;
@@ -52,10 +54,11 @@ html, body{
     flex-direction: row;
     align-items: center;
     text-decoration: none;
-    
+    padding-left: 10px;
  }
   .logo-social{
     height: 15px;
+    color: white;
   }
   .logo-down{
     height: 20px;

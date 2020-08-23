@@ -4,17 +4,13 @@ a {
     
     .App-Banner {
       display: flex;
-      background-color: darkgray;
-      color: #f9f9f9;
+      background-color: white;
       height: 60vh;
       justify-content: center;
       align-items: center;
-      padding: 0 50px;
     }
-    .Area-Banner{
-      padding: 0 50px;
-      max-width: 100%;
-      text-align: center;
+    .BannerImg{
+      height: 60vh;
     }
     @media screen and (max-width: 800px) {
       
