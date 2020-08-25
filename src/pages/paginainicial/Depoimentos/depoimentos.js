@@ -11,7 +11,7 @@ export default class Depoimentos extends React.Component {
         {nome:'Laura Alves',depo: 'alskdjalskdjalksdjalskd jalksjd', avata:'https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png'},
         {nome:'Everton Silva',depo: 'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ', avata:'https://instagram.fjdo10-1.fna.fbcdn.net/v/t51.2885-19/s320x320/87238521_199057691372652_166843429156814848_n.jpg?_nc_ht=instagram.fjdo10-1.fna.fbcdn.net&_nc_ohc=jiMTOPqNON4AX-ICrRp&oh=1fb42993ee36fd27bb74767a58e8399f&oe=5F6AE73F'},
         {nome:'joao miguel',depo: 'alskdj alskdjalksdjalskdjalksjd', avata:'https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png'},
-        {nome:'joao miguel',depo: 'alskdjalskdja lksdjalskdja lksjd', avata:'https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png'},
+        {nome:'joao miguel',depo: 'aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit', avata:'https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png'},
     ]
     
     state = {

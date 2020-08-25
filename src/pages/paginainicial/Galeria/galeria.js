@@ -3,18 +3,22 @@ import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css';
 import './galeria.css';
 
+import img1 from '../Galeria/Fotos/imagem1.jpeg';
+import img2 from '../Galeria/Fotos/imagem2.jpg';
+import img3 from '../Galeria/Fotos/imagem3.jpg';
+import img4 from '../Galeria/Fotos/imagem4.jpg';
+import img5 from '../Galeria/Fotos/imagem5.jpg';
+import img6 from '../Galeria/Fotos/imagem6.jpg';
+import img7 from '../Galeria/Fotos/imagem7.jpg';
+import img8 from '../Galeria/Fotos/imagem8.jpg';
+import img9 from '../Galeria/Fotos/imagem9.jpg';
+import img10 from '../Galeria/Fotos/imagem10.jpg';
+
 export default class Galeria extends React.Component {
-    items = [
-        "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-        "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-        "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-        "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-        "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-        "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png",
-    ]
+    items = [ img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]
     
     state = {
-    galleryItems: this.items.map((i) => <img src={i} style={{width:"98%",display:"flex",justifyContent:"center", marginLeft: 15}}/>),
+    galleryItems: this.items.map((i) => <img src={i} style={{width:"98%",height:"40vh" ,display:"flex",justifyContent:"center", marginLeft: 15}}/>),
   }
 
   responsive = {
